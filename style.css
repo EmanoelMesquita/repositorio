@@ -1,0 +1,38 @@
+/* 1. Estilização do título e subtítulo */
+h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+    color: #E8EBEA;
+    }
+    
+    h2 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 32px;
+    color: #D3D3D3;
+    }
+    
+    /* 2. Cor de fundo */
+    body {
+    background-color: #454546;
+    margin: 0;
+    padding: 20px;
+    }
+    
+    /* 3. Botão para links sem sublinhado */
+    a.button {
+    font-family: 'Krona One', sans-serif;
+    text-decoration: none;
+    background-color: #E8EBEA;
+    color: #454546;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+    }
+    
+    /* 4. Efeito hover no título */
+    h1:hover {
+    color: #FF4081;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    }
